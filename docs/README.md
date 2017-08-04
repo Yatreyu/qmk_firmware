@@ -4,6 +4,14 @@
 
 QMK (*Quantum Mechanical Keyboard*) is an open source community that maintains QMK Firmware, QMK Flasher, qmk.fm, and these docs. QMK Firmware is a keyboard firmware based on the [tmk\_keyboard](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR controllers, and more specifically, the [OLKB product line](http://olkb.com), the [ErgoDox EZ](http://www.ergodox-ez.com) keyboard, and the [Clueboard product line](http://clueboard.co/). It has also been ported to ARM chips using ChibiOS. You can use it to power your own hand-wired or custom keyboard PCB.
 
+## TL;DR Guide for Lazy Noobs {#quick-dirty-easy-no-skills-needed}
+
+1. Go to kbfirmware.com and make your build
+2. Download the ".hex" of your build
+3. Download a QMK flasher (https://github.com/qmk/qmk_flasher/releases)
+Alternatively (if issues with dfu-programmer driver): https://github.com/NoahAndrews/qmk_firmware_flasher/releases)
+4. Flash your QMK compatible keyboard and enjoy.
+
 ## How to get it {#how-to-get-it}
 
 If you plan on contributing a keymap, keyboard, or features to QMK, the easiest thing to do is [fork the repo through Github](https://github.com/qmk/qmk_firmware#fork-destination-box), and clone your repo locally to make your changes, push them, then open a [Pull Request](https://github.com/qmk/qmk_firmware/pulls) from your fork.
